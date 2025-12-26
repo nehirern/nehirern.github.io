@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADS-352 Örnek Sitesi</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #eef2f3, #d9e2ec);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #1f2933;
+            font-size: 1.6rem;
+        }
+
+        section p {
+            line-height: 1.7;
+            color: #444;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #f1f5f9;
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: #fff;
+            background: #2563eb;
+            transition: 0.3s;
+        }
+
+        .buttons a:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nehir Eren</h1>
+        <p>Açık Kaynak Yazılım Geliştirme Dersi</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Hakkımda</h2>
+            <p>
+                Elektronik teknolojileri alanında eğitim alıyorum. 
+                Otomasyon, motorlar ve teknik sistemler üzerine çalışmayı seviyorum.
+                Kendimi sürekli geliştirmeyi, yeni teknolojileri öğrenmeyi ve
+                teoriyi pratikle birleştirmeyi hedefliyorum.
+            </p>
+        </section>
+
+        <section>
+            <h2>Yetenekler</h2>
+            <div class="skills">
+                <div class="skill">Elektronik Temelleri</div>
+                <div class="skill">Motor Teknolojileri</div>
+                <div class="skill">Otomasyon</div>
+                <div class="skill">HTML & CSS</div>
+                <div class="skill">Teknik Çizim</div>
+                <div class="skill">Problem Çözme</div>
+            </div>
+        </section>
+
+            <div class="buttons">
+                <a href="#">E-posta</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Nehir Eren | Tüm Hakları Saklıdır
+    </footer>
+
+</body>
+</html>
